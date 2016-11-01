@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio1</string>
+    <string name="titulo">Moriràs</string>
+    <string-array name="causas">
+        <item>moriràs de camí al cinema atropellat per un camió, ja que no vas veure el tràiler.</item>
+        <item>moriràs ofegat després d\'una nit de borratxera en intentar abraçar el reflex de la lluna
+en el riu.</item>
+        <item>moriràs a causa de les hèlixs d\'un dron manejat per la Màfia d\'Andorra en assabentar-se
+que has tret del país un paquet de tabac extra.</item>
+        <item>moriràs disparat després de deixar el cotxe en doble fila davant de la teva garage</item>
+        <item>moriràs per una infecció en el peu al no tallar-te les ungles dels peus</item>
+        <item>moriràs per una picada de cobra, això provocarà que caiguis sobre un cactus i vindrà
+Kim jong un a matar-te amb l\'escombreta d\'un Wc tailandès ja que aquest cactus era el seu millor amic</item>
+        <item>moriràs d\'intoxicació en menjar-te un Kebab net fet per un espanyol</item>
+            <item>moriràs en comprar massa productes en alliexpress, això provocarà que el xinès se
+senti explotat i t\'envií una bomba feta a Espanya</item>
+    </string-array>
+    <string name="error">Has d\'introduir un nom i una data</string>
+    <string name="fecha">Introdueix una edat entre 18 i 120 anys</string>
+    <string name="de">" "</string>
+    <string name="del">de</string>
+</resources>

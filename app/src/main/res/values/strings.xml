@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="titulo">Vas a morir</string>
+    <string-array name="causas">
+        <item>morirás de camino al cine atropellado por un camión, ya que no viste el trailer.</item>
+        <item>morirás ahogado depués de una noche de borrachera al intentar abrazar el reflejo de la luna
+        en el rio.</item>
+        <item>morirás a causa de las hélices de un dron manejado por la Mafia de Andorra al enterarse
+        de que has sacado del país un paquete de tabaco extra.</item>
+        <item>morirás disparado tras dejar el coche en doble fila delante de tu garage</item>
+        <item>morirás por una infección en el pie al no cortarte las uñas de los pies</item>
+        <item>morirás por una picadura de cobra, eso provocará que te caigas sobre un cactus y vendrá
+        Kim jong un a matarte con la escobilla de un Wc tailandés ya que ese cactus era su mejor amigo</item>
+        <item>morirás de intoxicación al comerte un Kebab limpio hecho por un español</item>
+        <item>morirás al comprar demasiados articulos en alliexpress, eso provocará que el chino se
+        sienta explotado y te envie una bomba hecha en España</item>
+    </string-array>
+    <string name="error">Tienes que introducir un nombre y una fecha</string>
+    <string name="fecha">Introduce una edad entre 18 y 120 años</string>
+    <string name="de">de</string>
+    <string name="del">de</string>
+</resources>

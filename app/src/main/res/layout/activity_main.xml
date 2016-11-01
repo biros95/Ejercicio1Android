@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.marcosportatil.ejercicio1.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_marginTop="29dp"
+        android:id="@+id/EtNacimiento"
+        android:layout_below="@+id/EtNombre"
+        android:layout_alignLeft="@+id/EtNombre"
+        android:layout_alignStart="@+id/EtNombre"
+        android:hint="Introduce la Fecha" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/EtNombre"
+        android:layout_marginTop="13dp"
+        android:hint="Introduce tu nombre"
+        android:layout_below="@+id/textNombre"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="Nacimiento"
+        android:layout_below="@+id/EtNombre"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Nombre: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textNombre"
+
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="Alcohol?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:id="@+id/CkAlcohol"
+        android:layout_below="@+id/EtNacimiento"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <CheckBox
+        android:text="Fumas?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CkFumas"
+        android:layout_alignBaseline="@+id/CkAlcohol"
+        android:layout_alignBottom="@+id/CkAlcohol"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="Drogas?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CkDrogas"
+        android:layout_alignBaseline="@+id/CkFumas"
+        android:layout_alignBottom="@+id/CkFumas"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <TextView
+        android:text="Hablemos de salud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CkFumas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="Genero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/CkFumas"
+        android:layout_centerHorizontal="true" />
+
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RadioButton
+            android:text="Hombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/RHombre"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/textView6"
+            android:layout_toLeftOf="@+id/textView6"
+            android:layout_toStartOf="@+id/textView6" />
+
+        <RadioButton
+            android:text="Mujer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+
+            android:layout_alignBaseline="@+id/RHombre"
+            android:layout_alignBottom="@+id/RHombre"
+            android:layout_toRightOf="@+id/textView6"
+            android:layout_toEndOf="@+id/textView6"
+            android:checked="true" />
+    </RadioGroup>
+
+    <Button
+        android:text="Conoce tu muerte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Btnresultado"
+        android:layout_marginBottom="39dp"
+        android:elevation="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/CkDrogas"
+        android:layout_toStartOf="@+id/CkDrogas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
